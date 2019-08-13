@@ -10,6 +10,11 @@ const columns= [
         sort: 'asc'
     },
     {
+        label: 'score',
+        field: 'score',
+        sort: 'asc'
+    },
+    {
         label: 'firstName',
         field: 'firstName',
         sort: 'asc'
@@ -17,11 +22,6 @@ const columns= [
     {
         label: 'lastName',
         field: 'lastName',
-        sort: 'asc'
-    },
-    {
-        label: 'score',
-        field: 'score',
         sort: 'asc'
     },
     {
