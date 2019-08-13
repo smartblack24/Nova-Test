@@ -56,7 +56,7 @@ class ListReports extends Component {
         super(props);
     }
     handleArchive = (data) => (e) => {
-		fetch(`http://localhost:${BACKEND_SERVER_PORT}/api/requests/archive`, {
+				fetch(`http://localhost:${BACKEND_SERVER_PORT}/api/requests/archive`, {
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Accept': 'application/json',
